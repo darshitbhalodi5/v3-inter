@@ -7,7 +7,7 @@ import {
   Token,
   TradeType,
 } from "darshitswap-sdk-core";
-import { DutchOrderInfo, DutchOrderInfoJSON } from "udonswapx-sdk";
+import { DutchOrderInfo, DutchOrderInfoJSON } from "@uniswap/uniswapx-sdk";
 import { Pair, Route as V2Route } from "darshitswap-v2-sdk";
 import { FeeAmount, Pool, Route as V3Route } from "darshitswap-v3-sdk";
 import { BIPS_BASE } from "constants/misc";

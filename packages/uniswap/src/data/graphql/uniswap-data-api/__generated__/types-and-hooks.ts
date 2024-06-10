@@ -153,8 +153,7 @@ export enum Chain {
   EthereumSepolia = 'ETHEREUM_SEPOLIA',
   Optimism = 'OPTIMISM',
   Polygon = 'POLYGON',
-  UnknownChain = 'UNKNOWN_CHAIN',
-  Mode='MODE'
+  UnknownChain = 'UNKNOWN_CHAIN'
 }
 
 export enum CollectionSortableField {

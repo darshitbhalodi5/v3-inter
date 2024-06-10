@@ -14,7 +14,7 @@ import {
   DutchOrderInfo,
   DutchOrderInfoJSON,
   DutchOrderTrade as IDutchOrderTrade,
-} from "udonswapx-sdk";
+} from "@uniswap/uniswapx-sdk";
 import { Route as V2Route } from "darshitswap-v2-sdk";
 import { Route as V3Route } from "darshitswap-v3-sdk";
 import { ZERO_PERCENT } from "constants/misc";
