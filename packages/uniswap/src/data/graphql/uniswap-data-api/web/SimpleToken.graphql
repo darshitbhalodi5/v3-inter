@@ -1,0 +1,20 @@
+query SimpleToken($chain: Chain!, $address: String = null) {
+    token(chain: $chain, address: $address) {
+      id
+      address
+      chain
+      symbol
+      name
+      decimals
+      standard
+      project {
+        id
+        logo {
+          id
+          url
+        }
+        safetyLevel
+        isSpam
+      }
+    }
+  }
